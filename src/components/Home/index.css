@@ -1,0 +1,288 @@
+.main{
+    background-color: #FFFFFF;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.home-container{
+    background-color: transparent;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Home-Contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.graph-container{
+    background-color: #ffffff;
+    height:350px;
+    width: 100%;
+    border: 1px #F2F4F7 solid;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 10px;
+}
+
+.graph-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.graph-heading{
+    color: #344054;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.graph-download{
+    display: flex;
+    flex-direction: row;
+}
+
+.download-image{
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+
+.graph-para{
+    color: #AD8EDD;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.buttons{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    display: flex;
+    flex-direction: row;
+}
+
+.graph-button{
+    height: 32px;
+    width: 80px;
+    color: #98A2B3;
+    background-color: transparent;
+    border: 0px;
+    margin-right: 20px;
+}
+
+.graph-button2{
+    height: 32px;
+    width: 80px;
+    color: #344054;
+    background-color: #AD8EDD;
+    border: 0px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.graph-image{
+    height: 250px;
+    width: 80%;
+}
+
+.part2{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.statscard1{
+    height: 255px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px #F2F4F7 solid;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.statsheading{
+    color: #344054;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.account{
+    height: 105px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px #F2F4F7 solid;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.accountpara1{
+    color: #344054;
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.section1{
+    height: 23px;
+    width: 125px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.accountpara2{
+    background-color: #F2F4F7;
+    height: 23px;
+    width: 63px;
+    color: #344054;
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 500;
+    border: 0px;
+    box-sizing: 32px;
+    text-align: center;
+    border-radius: 32px;
+    margin-right: 5px;
+}
+
+.accountpara3{
+    color: #667085;
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.accountpara4{
+    color: #344054;
+    font-size: 32px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.accountpara5{
+    color: #344054;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.account-image{
+    height: 24px;
+    width: 24px;
+}
+
+.trade-card{
+    background-color: #FCFCFD;
+    border: 1px #EAECF0 solid;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    height: 64px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.trade-section1{
+    display: flex;
+    flex-direction: row;
+}
+
+.tradeparas{
+    display: flex;
+    flex-direction: row;
+}
+
+.tradepara1{
+    color: #667085;
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.tradepara2{
+    background-color: #EBFFEE;
+    border: 0px;
+    border-radius: 32px;
+    color: #344054;
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.tradepara22{
+    background-color: #FEE9E7;
+    border: 0px;
+    border-radius: 32px;
+    color: #344054;
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.tradepara3{
+    color: #667085;
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.tradepara4{
+    color: #344054;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.tradepara5{
+    color: #14AE5C;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.tradepara6{
+    color: #EC221F;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
